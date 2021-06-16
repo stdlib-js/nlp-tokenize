@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-tokenize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tokenize a string.",
   "license": "Apache-2.0",
   "author": {
