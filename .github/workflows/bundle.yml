@@ -107,11 +107,17 @@ jobs:
         run: |
           npm install || npm install || npm install
         timeout-minutes: 15
+      - name: Extract Alias
+        id: extract-alias
+        run: |
+          alias=$(grep -E 'require\(' README.md | head -n 1 |  sed -E 's/^var ([a-zA-Z0-9_]+) = .+/\1/')
+          echo "::set-output name=alias::${alias}"
       - name: Create Universal Module Definition (UMD) bundle
         id: umd-bundle
         uses: stdlib-js/bundle-action@main
         with:
           target: 'umd'
+          alias: ${{ steps.extract-alias.outputs.alias }}
       - name: Rewrite file contents
         run: |
 
