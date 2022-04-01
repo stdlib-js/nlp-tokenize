@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/nlp-tokenize",
+  "version": "0.0.0",
+  "description": "Tokenize a string.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/nlp-tokenize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "nlp",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "text mining",
+    "tokenizer",
+    "split",
+    "separate",
+    "tokens",
+    "word"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
