@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@deno/mod.js';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.0.11-deno/mod.js';
 ```
 
 #### tokenize( str\[, keepWhitespace] )
@@ -69,7 +69,7 @@ var out = tokenize( str, true );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@deno/mod.js';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.0.11-deno/mod.js';
 
 console.log( tokenize( 'Hello World!' ) );
 // => [ 'Hello', 'World', '!' ]
