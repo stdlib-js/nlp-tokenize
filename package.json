@@ -40,7 +40,7 @@
     "@stdlib/assert-has-own-property": "^0.0.7",
     "@stdlib/assert-is-boolean": "^0.0.8",
     "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/string-format": "^0.0.3"
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.0.7",
