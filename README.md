@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@esm/index.mjs';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.1.0-esm/index.mjs';
 ```
 
 #### tokenize( str\[, keepWhitespace] )
@@ -85,7 +85,7 @@ var out = tokenize( str, true );
 <body>
 <script type="module">
 
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@esm/index.mjs';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.1.0-esm/index.mjs';
 
 console.log( tokenize( 'Hello World!' ) );
 // => [ 'Hello', 'World', '!' ]
