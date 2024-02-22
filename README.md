@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/nlp-tokenize/tags). For example,
+
+```javascript
 import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.2.1-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ var out = tokenize( str, true );
 <body>
 <script type="module">
 
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.2.1-esm/index.mjs';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@esm/index.mjs';
 
 console.log( tokenize( 'Hello World!' ) );
 // => [ 'Hello', 'World', '!' ]
