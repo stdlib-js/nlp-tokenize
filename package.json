@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-tokenize",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Tokenize a string.",
   "license": "Apache-2.0",
   "author": {
@@ -40,8 +40,8 @@
     "@stdlib/assert-has-own-property": "^0.2.1",
     "@stdlib/assert-is-boolean": "^0.2.1",
     "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.2.1",
