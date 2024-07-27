@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/nlp-tokenize/tags). For example,
+
+```javascript
 import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.2.2-deno/mod.js';
 ```
 
@@ -80,7 +85,7 @@ var out = tokenize( str, true );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@v0.2.2-deno/mod.js';
+import tokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-tokenize@deno/mod.js';
 
 console.log( tokenize( 'Hello World!' ) );
 // => [ 'Hello', 'World', '!' ]
